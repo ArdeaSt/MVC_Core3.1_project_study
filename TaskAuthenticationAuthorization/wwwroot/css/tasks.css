@@ -1,0 +1,55 @@
+﻿body {
+    background: linear-gradient(to right,#f320d5,#1b6ec2);
+    background-size: cover;
+    text-align: left;
+}
+
+p {
+    color: whitesmoke;
+}
+
+table {
+    border: 1px solid black;
+    background: white;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 5px;
+    border: 1px solid black;
+}
+
+ th {
+    padding: 5px;
+    background: linear-gradient(#62f5e3,#fe3cca);
+    text-align: center;
+    border: 1px solid black;
+}
+dl {
+    border: 1px solid black;
+    background: white;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+a {
+    color: deepskyblue;
+}
+
+
+.field-validation-error {
+    color: whitesmoke;
+}
+
+.field-validation-valid {
+    color: antiquewhite;
+}
+input
+{
+    margin-left:10px;
+}
+#one
+{
+    margin-left:40px;
+}

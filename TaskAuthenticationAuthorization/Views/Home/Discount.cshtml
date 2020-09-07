@@ -1,0 +1,10 @@
+﻿@{
+    ViewData["Title"] = "My Discount";
+    Random r = new Random();
+    
+
+}
+
+<h1> @ViewData["Title"] </h1>
+<h2>You Lucky!</h2>
+<h3>You have discount: @r.Next(1,100)%  </h3>
